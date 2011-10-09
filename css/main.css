@@ -89,8 +89,9 @@ h4 {
 	float: right;
 }
 /* Content */
-.promotion h3 {
+.promotion h3, .promotion h4 {
 	color: #db2137;
+	padding: 0.5em 0;
 }
 #content {
 	margin-top: 2em;
