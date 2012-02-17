@@ -146,7 +146,7 @@ th#nobg {
 	text-align: center;
 }
 #content form {
-	width: 28em;
+	width: 450px;
 }
 #content tr:hover {
 	background-color: #ffffff;
@@ -160,7 +160,6 @@ input[type=text], textarea {
 	border: 1px solid #000000;
 	float: left;
 	width: 100%;
-
 }
 input[type=text]:focus, textarea:focus {
 	border: 1px solid #c71e31;
@@ -196,6 +195,10 @@ input[type=submit] {
 }
 .red {
 	color:#c71e31;
+}
+#recaptcha {
+    clear: both;
+    margin-bottom: 20px;
 }
 /* Gallery */
 #gallery {

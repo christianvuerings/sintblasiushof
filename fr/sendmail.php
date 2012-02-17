@@ -1,6 +1,7 @@
 <?php
 	$language = "fr";
 	$to = "veerle.borrey@pandora.be";
+    require_once('../recaptcha/verify.php');
  
 	$successfully = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="fr" xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
@@ -61,6 +62,8 @@ if (isset($_POST['submit'])) {
 		$error .= "\n\t\t\t\t"."<li>Remplisez votre adresse mail svp</li>";
 	} if (!isset($_POST['bericht'])|| $_POST['bericht'] == "") {
 		$error .= "\n\t\t\t\t"."<li>Remplisez la cage messagerie svp</li>";
+	} if (!$resp->is_valid) {
+	    $error .= "\n\t\t\t\t"."<li>Captcha n'est pas valide</li>";
 	}
 
 	if (!isset($error)) {		
@@ -140,7 +143,7 @@ if (isset($_POST['submit'])) {
 
 	$host  = $_SERVER['HTTP_HOST'];
 	$uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
-	$extra = 'contact.htm';
+	$extra = 'contact.php';
 	header("Location: http://$host$uri/en/$extra");
 
 	echo "<html><head>";

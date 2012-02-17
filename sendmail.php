@@ -1,4 +1,5 @@
 <?php
+    require_once('recaptcha/verify.php');
 	$language = "nl";
 	$to = "veerle.borrey@pandora.be";
  
@@ -61,6 +62,8 @@ if (isset($_POST['submit'])) {
 		$error .= "\n\t\t\t\t"."<li>E-mail is niet ingevuld</li>";
 	} if (!isset($_POST['bericht'])|| $_POST['bericht'] == "") {
 		$error .= "\n\t\t\t\t"."<li>Bericht is niet ingevuld</li>";
+	} if (!$resp->is_valid) {
+	    $error .= "\n\t\t\t\t"."<li>Captcha is niet geldig</li>";
 	}
 
 	if (!isset($error)) {		
@@ -140,7 +143,7 @@ if (isset($_POST['submit'])) {
 
 	$host  = $_SERVER['HTTP_HOST'];
 	$uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
-	$extra = 'contact.htm';
+	$extra = 'contact.php';
 	header("Location: http://$host$uri/$extra");
 
 	echo "<html><head>";
