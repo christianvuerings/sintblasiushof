@@ -84,7 +84,6 @@ if (isset($_POST['submit'])) {
 		echo $message;
 		echo $headers;
 
-		echo $successfully;
 
 	} else {
 		
