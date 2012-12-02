@@ -79,11 +79,7 @@ if (isset($_POST['submit'])) {
 
 		mail("$to", "$subject", "$message", "$headers");
 
-		echo $to;
-		echo $subject;
-		echo $message;
-		echo $headers;
-
+		echo $successfully;
 
 	} else {
 		
