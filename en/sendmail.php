@@ -149,7 +149,7 @@ if (isset($_POST['submit'])) {
 	$host  = $_SERVER['HTTP_HOST'];
 	$uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
 	$extra = 'contact.php';
-	header("Location: http://$host$uri/en/$extra");
+	header("Location: http://$host$uri/$extra");
 
 	echo "<html><head>";
 	echo "<meta http-equiv=\"refresh\" Content=\"2; url=http://$host$uri/$extra\">";
