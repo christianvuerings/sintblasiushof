@@ -1,6 +1,6 @@
 <?php
 	$language = "en";
-	$to = "veerle.borrey@telenet.be";
+	$to = "vueringschristian@gmail.com";
     require_once('../recaptcha/verify.php');
  
 	$successfully = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -67,16 +67,22 @@ if (isset($_POST['submit'])) {
 	}
 
 	if (!isset($error)) {		
+
 		$subject = "Sint-Blasius Hof: ".$_POST['naam']." // ".$language;
 
 		$message = "Naam: ".$_POST['naam']."\n";
 		$message .= "Telefoon: ".$_POST['telefoon']."\n";
 		$message .= "E-mail: ".$_POST['email']."\n";
 		$message .= "Bericht: ".$_POST['bericht'];
-		
-		$headers = "";
-		
-		mail ($to, $subject, $message, $headers);
+
+		$headers = "From: ".$_POST['email']."\nReply-To: ".$_POST['email'];
+
+		mail("$to", "$subject", "$message", "$headers");
+
+		echo $to;
+		echo $subject;
+		echo $message;
+		echo $headers;
 
 		echo $successfully;
 
