@@ -1,6 +1,6 @@
 <?php
 	$language = "nl";
-	$to = "veerle.borrey@telenet.be";
+	$to = "sintblasiushof@gmail.com";
 	require_once('recaptcha/verify.php');
  
 	$successfully = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
