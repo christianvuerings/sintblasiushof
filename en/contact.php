@@ -29,7 +29,7 @@
     };
     </script>
 
-	<title>Sint-Blasius Hof // Contact</title>
+	<title>Sint-Blasius Hof // Contacts</title>
 </head>
 <body>
 	<div id="container">
