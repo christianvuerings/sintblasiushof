@@ -10,12 +10,7 @@
 	<meta http-equiv="description" content="Une chambre d&prime;h&ocirc;tes pour chacun qui adore la r&eacute;gion de la Zwalm." />
 	
 	<link type="text/css" rel="stylesheet" href="../css/main.css" media="screen" />
-	<!--[if IE 7]>
-		<link type="text/css" rel="stylesheet" href="../css/ie7.css" media="screen" />
-	<![endif]-->
-	<!--[if IE 6]>
-		<link type="text/css" rel="stylesheet" href="../css/ie6.css" media="screen" />
-	<![endif]-->
+
 	<link rel="shortcut icon" href="http://www.sintblasiushof.be/favicon.ico" />
 	
 	<title>Sint-Blasius Hof // Contact // Envoy&eacute;</title>
@@ -89,12 +84,7 @@ if (isset($_POST['submit'])) {
 	<meta http-equiv="description" content="Une chambre d&prime;h&ocirc;tes pour chacun qui adore la r&eacute;gion de la Zwalm." />
 	
 	<link type="text/css" rel="stylesheet" href="../css/main.css" media="screen" />
-	<!--[if IE 7]>
-		<link type="text/css" rel="stylesheet" href="../css/ie7.css" media="screen" />
-	<![endif]-->
-	<!--[if IE 6]>
-		<link type="text/css" rel="stylesheet" href="../css/ie6.css" media="screen" />
-	<![endif]-->
+
 	<link rel="shortcut icon" href="http://www.sintblasiushof.be/favicon.ico" />
 	
 	<title>Sint-Blasius Hof // Contact // Pas envoy&eacute;</title>

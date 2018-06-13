@@ -10,12 +10,7 @@
 	<meta http-equiv="description" content="A B&#38;B for everyone that loves nature &amp; and a place to relax." />
 	
 	<link type="text/css" rel="stylesheet" href="../css/main.css" media="screen" />
-	<!--[if IE 7]>
-		<link type="text/css" rel="stylesheet" href="../css/ie7.css" media="screen" />
-	<![endif]-->
-	<!--[if IE 6]>
-		<link type="text/css" rel="stylesheet" href="../css/ie6.css" media="screen" />
-	<![endif]-->
+
 	<link rel="shortcut icon" href="http://www.sintblasiushof.be/favicon.ico" />
 	
 	<title>Sint-Blasius Hof // Contact // Sent</title>
@@ -90,12 +85,7 @@ if (isset($_POST['submit'])) {
 	<meta http-equiv="description" content="A B&#38;B for everyone that loves nature &amp; and a place to relax." />
 	
 	<link type="text/css" rel="stylesheet" href="../css/main.css" media="screen" />
-	<!--[if IE 7]>
-		<link type="text/css" rel="stylesheet" href="../css/ie7.css" media="screen" />
-	<![endif]-->
-	<!--[if IE 6]>
-		<link type="text/css" rel="stylesheet" href="../css/ie6.css" media="screen" />
-	<![endif]-->
+
 	<link rel="shortcut icon" href="http://www.sintblasiushof.be/favicon.ico" />
 	
 	<title>Sint-Blasius Hof // Contact // Not Sent</title>

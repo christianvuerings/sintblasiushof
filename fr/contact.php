@@ -7,12 +7,7 @@
 informations de contact, contact" />
 
 	<link type="text/css" rel="stylesheet" href="../css/main.css" media="screen" />
-	<!--[if IE 7]>
-		<link type="text/css" rel="stylesheet" href="../css/ie7.css" media="screen" />
-	<![endif]-->
-	<!--[if IE 6]>
-		<link type="text/css" rel="stylesheet" href="../css/ie6.css" media="screen" />
-	<![endif]-->
+
 	<link rel="shortcut icon" href="http://www.sintblasiushof.be/favicon.ico" />
 
 	<script type="text/javascript">

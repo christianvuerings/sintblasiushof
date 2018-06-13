@@ -6,12 +6,6 @@
 	<meta name="keywords" content="Sint-Blasius Hof, Zwalm, B&amp;B, bed en breakfast, overnachten, ontbijt, natuur, zwalm, Belgi&euml;, rust, fietsen, ontspannen, luxe, welness, contact, contactinformatie" />
 
 	<link type="text/css" rel="stylesheet" href="css/main.css" media="screen" />
-	<!--[if IE 7]>
-		<link type="text/css" rel="stylesheet" href="css/ie7.css" media="screen" />
-	<![endif]-->
-	<!--[if IE 6]>
-		<link type="text/css" rel="stylesheet" href="css/ie6.css" media="screen" />
-	<![endif]-->
 	<link rel="shortcut icon" href="http://www.sintblasiushof.be/favicon.ico" />
 
 	<script type="text/javascript">
@@ -54,7 +48,7 @@
 			<p>Aarzel niet om contact met ons op te nemen.<br />
 			Wij zullen U zo vlug mogelijk antwoorden.</p>
 			<form method="post" action="sendmail.php">
-				<div> 
+				<div>
 					<label for="naam">Naam:</label>
 					<input type="text" name="naam" id="naam" size="42" /><br />
 
