@@ -11,7 +11,7 @@
 	
 	<link type="text/css" rel="stylesheet" href="../css/main.css" media="screen" />
 
-	<link rel="shortcut icon" href="http://www.sintblasiushof.be/favicon.ico" />
+	<link rel="shortcut icon" href="favicon.ico" />
 	
 	<title>Sint-Blasius Hof // Contact // Sent</title>
 </head>
@@ -86,7 +86,7 @@ if (isset($_POST['submit'])) {
 	
 	<link type="text/css" rel="stylesheet" href="../css/main.css" media="screen" />
 
-	<link rel="shortcut icon" href="http://www.sintblasiushof.be/favicon.ico" />
+	<link rel="shortcut icon" href="favicon.ico" />
 	
 	<title>Sint-Blasius Hof // Contact // Not Sent</title>
 </head>

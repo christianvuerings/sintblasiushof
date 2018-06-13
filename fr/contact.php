@@ -8,7 +8,7 @@ informations de contact, contact" />
 
 	<link type="text/css" rel="stylesheet" href="../css/main.css" media="screen" />
 
-	<link rel="shortcut icon" href="http://www.sintblasiushof.be/favicon.ico" />
+	<link rel="shortcut icon" href="favicon.ico" />
 
 	<script type="text/javascript">
 		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
