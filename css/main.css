@@ -178,6 +178,7 @@ th#nobg {
 }
 input[type=text], textarea {
     border: 1px solid #000000;
+    box-sizing: border-box;
     padding: 5px;
     float: left;
     font-size: 16px;
@@ -187,9 +188,20 @@ input[type=text]:focus, textarea:focus {
     border: 1px solid #c71e31;
 }
 input[type=submit], input[type=reset] {
+    background: #c71e31;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    padding: 4px 12px;
     float: right;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
     margin-left: 1em;
     margin-top: 0.5em;
+}
+input[type=reset] {
+    opacity: 0.5;
 }
 input[type=submit] {
     width: 10em;
